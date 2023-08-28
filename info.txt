@@ -1,0 +1,84 @@
+	ABOUT THE PROJECT
+	# Project POS Management System (Point Of Sales)
+	# Version: V1.0.1
+	# Technologies Used: XAMPP,PHP,MYSQL,JQuery,HTML,CSS3,Bootstrap Framework
+	# Type: Web Application
+	# Database: MYSQL
+	# App Year  : 2023
+	# Build on PHP Version 8.2.0 or Higher
+# Features:
+		* Secure Login and Logout
+		* Prevent User to Log in on multiple devices at a time
+		* Administrator Panel
+		* Cashier Panel
+		* Products Management (CRUD)
+		* Supplier Management (CRUD)
+		* Manage Point of Sales(POS)
+		* Generate Invoices
+		* Search Products
+		* Store Management(CRUD)
+		* Category Management(CRUD)
+		* Manage Products Expiration
+		* View Order List
+		* Filter order by Date range
+		* User Management
+		* Print Terminal Receipt (80mm and A4 Size)
+		* User Update Own Account 
+		* User Update System Settings
+		* Import Multi Products via CSV File
+		* Scan Product using Product Barcode scanner
+
+# Installation Method:
+#HOW TO RUN 
+ Download and Install any local web server such as XAMPP/WAMP.
+ click here to Download local web server
+  https://www.apachefriends.org/downloa... 
+Download XAMPP Apache
+  https://sourceforge.net/projects/wamp... Download WAMPServer
+  To Download VSCode Editor Click the link below
+  https://code.visualstudio.com/download 
+Download VSCode Editor
+  To Download Sublime Text Editor Click the link below
+ https://www.sublimetext.com/download 
+Download Sublime Editor
+	 #STEP 1:
+	Download the provided source code zip file.
+
+	#STEP 2:
+	Open your XAMPP/WAMP php.ini file and uncomment the mysql extension. Then, save the file.
+	#STEP 3:
+	Open your XAMPP/WAMP's Control Panel and start Apache.
+
+	#STEP 4:
+	Extract the downloaded source code zip file.
+
+	If you are using XAMPP, copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory. And If you are using WAMP, paste it into the "www" directory.
+	#STEP 5:
+	Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+
+	Create a new database named pos_db.
+
+	Import the provided SQL file. The file is known as pos_db.sql located inside the db folder.
+
+	#STEP 6:
+	Locate example.init.php in app/ folder and copy its content to init.php and set the configuration accordingly FAILURE TO DO THIS CORRECTLY the application will Generate FATAL ERROR
+	#STEP 7:
+	Browse the POS Management System in a browser. i.e. http://localhost/pos-v1/
+
+	WARNING: Do not Update Functions or Methods and copyright should remain and reference to Flat ERP Technologies
+
+	Default Administrator Access
+	email: admin@kme.com
+	Password: admin123
+
+	Default Cashier Access
+	email: cashier@kme.com
+	Password: cashier
+
+
+
+
+
+
+
+	
